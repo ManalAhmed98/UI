@@ -1,0 +1,205 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+
+.droid-arabic-kufi {
+font-family: 'Droid Arabic Kufi', serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --p-color: #017B76;
+    --s-color: #D9D9D9;
+    --font-family: 'Droid Arabic Kufi', serif;
+}
+#img-header{
+    height: 40%;
+    width: 100%;
+    filter: brightness(50%);
+    object-fit: cover;
+    
+}
+.div-header{
+    border-bottom: 10px solid var(--p-color);
+
+}
+ul{
+    padding: 10px 16px;
+    list-style: none;
+    display: flex;
+    position: absolute;
+    top: 5;
+    right:0;
+    direction: rtl;
+}
+
+li::after{
+    content: "";
+    padding-right: 20;
+}
+li::before{
+    content: "";
+    padding: 10;
+}
+a{
+    display: inline-block;
+    color: white;
+    font-size: 16;
+    font-family: var(--font-family);
+    text-decoration: none;
+    border-radius: 10px;
+}
+#back{
+    background-color: var(--p-color);
+    padding: 2px;
+}
+a:hover{
+    background-color: rgba(0, 0, 0, 0.295);
+    padding: 2px;
+    
+}
+#sty-h1{
+    font-size: 60;
+    color: aliceblue;
+    /* display: flex;
+    justify-content: center; */
+    position: absolute;
+    top: auto ;
+    left: 35%;
+    right: 35%;
+    bottom: 68%;
+    font-family: var(--font-family);
+}
+.logo{
+    background-color: var(--p-color);
+    position: absolute;
+    top: auto ;
+    left: 43%;
+    right: 43%;
+    bottom: 50%;
+    height: 180px;
+    width: 180px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 1px 4px 8px grey;
+    transition: height 0.5s , width 0.5s , box-shadow 0.5s;
+    background-image: url('tarmeez-assets/white-logo.png');
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+.logo:hover{
+    height: 185px;
+    width: 185px;
+    box-shadow: 1px 6px 10px rgb(98, 98, 98);
+}
+
+div + h2{
+
+    text-align: center;
+    margin-top: 10%;
+    font-family: var(--font-family);
+    font-size: 30;
+    color: rgb(106, 106, 106);
+    font-weight: lighter;
+}
+
+.div-category{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+h2{
+    font-family: var(--font-family);
+    font-size: 35;
+    font-weight: lighter;
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: right;
+}
+span{
+    height: 60px;
+    width: 260px;
+    padding-top: 15px;
+    font-size: 24px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    color: var(--p-color);
+    text-align: center;
+    background-color: var(--s-color);
+}
+.div-courses{
+    margin-top: 120px;
+    height: 250px;
+    width: 100%;
+    background-color: var(--s-color);
+}
+.courses{
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.container{
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 100px;
+    width: 400px;
+    
+}
+.image{
+    height: 100px;
+    width: 180px;
+    border-radius: 8px;
+}
+h3{
+    font-family: var(--font-family);
+    color:  rgb(106, 106, 106);
+    font-weight: bold;
+    font-size: 16;
+    position: relative;
+    bottom: 110%;
+    right:50%;
+
+}
+button{
+    font-family: var(--font-family);
+    font-size: 12;
+    background-color: var(--p-color);
+    color: white;
+    position: relative;
+    bottom: 110%;
+    right:60%;
+    border: none;
+    height: 30px;
+    width: 90px;
+    box-shadow: 1px 2px 7px gray;
+}
+.footer{
+    background-color: #043130 ;
+    width: 100%;
+    height: 80px;
+    margin-top: 180px;
+}
+h4{
+    color: white;
+    font-family: var(--font-family);
+    font-size: 13;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+
+    /* background-size: cover;
+    background-color: black;
+    background-image: url('tarmeez-assets/header.jpeg');
+    background-position-y: center;
+    height: 40%;
+    width: 100%; */
